@@ -8,5 +8,9 @@ public class Main {
         var context = new AnnotationConfigApplicationContext();
 
         Parrot p = new Parrot();
+
+        p.setName("Riki");
+
+        System.out.println("the parrot's name is " + p.getName());
     }
 }
